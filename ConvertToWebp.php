@@ -7,7 +7,7 @@
 	function convertToWebp($path){
 		if(!file_exists($path.".webp")){ // we check if file already exist (for don't create erase and recreate)
 			$i = pathinfo($path);
-			switch($i["extension"]) {
+			switch(strtolower($i["extension"])) {
 		    	case "jpg":
 			case "jpeg":
 		        	$im = imagecreatefromjpeg($path);
