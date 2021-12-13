@@ -28,17 +28,16 @@ Example for create a form:
         "placeholder" => "Nom d&apos;utilisateur", // i set a placeholder
         "name" => "username", // i give a className
         "required" => "required", // i add the attr required
-        "minlength" => db::getParameter("usernameMinLength"), // i add the attr minlength
-        "maxlength" => db::getParameter("usernameMaxLength") // i add the attr maxlength
+        "minlength" => 4,
+        "maxlength" => 25
     ));
 
     $formLogin->setElement("input", array(
         "type" => "password",
         "placeholder" => "Mot de passe",
         "name" => "password",
-
-        "minlength" => db::getParameter("passwordMinLength"),
-        "maxlength" => db::getParameter("passwordMaxLength")
+        "minlength" => 3,
+        "maxlength" => 25
     ));
 
     $formLogin->setElement("input", array(
