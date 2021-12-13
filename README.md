@@ -70,4 +70,4 @@ Supports the following elements:
 
 More informations about this class on the documentation of the project "geneager" (https://github.com/cyrilovh/geneager/).
 
-** THE CLASS WILL BE MORE FULL LATER IN MY CMS PROJECT **
+**** THE CLASS WILL BE MORE FULL LATER IN MY CMS PROJECT ****
