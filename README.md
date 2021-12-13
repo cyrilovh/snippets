@@ -13,7 +13,7 @@ $files = scandir("./"); // scan and convert is the current directory
 
 ## form.class.php
 
-Class for generate from and checkout it after user submit.
+Class for generate from and checkout it after user submit ("light version").
 Example for create a form:
 
 ```php
@@ -61,3 +61,6 @@ if(count($formLogin->check())==0){
   // continue..
 }
 ```
+
+More informations about this class on the documentation of the project "geneager" (https://github.com/cyrilovh/geneager/).
+Warning: the documentation may be change.
