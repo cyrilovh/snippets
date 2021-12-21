@@ -2,7 +2,7 @@
 
 This repo was created to help developers with snippets.
 
-## ConvertToWebp.php
+# ConvertToWebp.php
 
 Convert all files PNG, JPG, JPEG and BMP from directory to WEBP format.
 All converted images are saved under the old name and extension + the new extension (ex: image.png -> image.png.webp).
@@ -11,7 +11,7 @@ All converted images are saved under the old name and extension + the new extens
 $files = scandir("./"); // scan and convert is the current directory
 ```
 
-## form.class.php
+# form.class.php
 
 Class for generate from and checkout it after user submit ***("light version")***.
 Example for create a form:
@@ -72,7 +72,7 @@ More informations about this class on the documentation of the project "geneager
 
 **THE CLASS WILL BE MORE FULL LATER IN MY CMS PROJECT**
 
-## autoloader.class.php
+# autoloader.class.php
 This autoloader support namespaces.
 If you are using namespaces you MUST create a subfolder with the same name in the folder containing all the classes and include the PHP class inside.
 
