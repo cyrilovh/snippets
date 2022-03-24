@@ -1,7 +1,7 @@
 # About snippets folder
 
-This repository is no longer maintained.
-Visit my blog to get code snippets improvements and other tips.
+🚩 This repository is no longer maintained.
+Visit my blog to get code snippets improvements and other tips: https://blog.cyril.ovh
 
 # ConvertToWebp.php
 
@@ -61,7 +61,6 @@ if(count($formLogin->check())==0){
   // continue..
 }
 ```
-Last update of the PHP class: https://blog.cyril.ovh/class-form-php-verification/
 
 Supports the following elements:
 - all inputs (include color, range).
@@ -70,7 +69,7 @@ Supports the following elements:
 - button
 - submit
 
-More informations about this class on the documentation of the project "geneager" (https://github.com/cyrilovh/geneager/).
+🚩 Last update of the PHP class and more informations: https://blog.cyril.ovh/class-form-php-verification/
 
 **THE CLASS WILL BE MORE FULL LATER IN MY CMS PROJECT**
 
