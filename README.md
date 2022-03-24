@@ -1,6 +1,7 @@
 # About snippets folder
 
-This repo was created to help developers with snippets.
+This repository is no longer maintained.
+Visit my blog to get code snippets improvements and other tips.
 
 # ConvertToWebp.php
 
@@ -60,6 +61,7 @@ if(count($formLogin->check())==0){
   // continue..
 }
 ```
+Last update of the PHP class: https://blog.cyril.ovh/class-form-php-verification/
 
 Supports the following elements:
 - all inputs (include color, range).
